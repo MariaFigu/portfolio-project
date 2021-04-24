@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #f9f3f3;
+  --heading-font-family: "Amatic SC", cursive;
+}
+
 html {
   font-family: "Playfair Display", serif;
 }
@@ -6,8 +11,12 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Amatic SC", cursive;
+  font-family: var(--heading-font-family);
   font-weight: bold;
+}
+
+.navbar {
+  background-color: var(--primary-color);
 }
 
 .container {
@@ -20,6 +29,12 @@ h4 {
   text-align: center;
 }
 
+.hero {
+  margin-top: 56px;
+  background-color: var(--primary-color);
+  padding: 40px 20px;
+}
+
 .social-text {
   text-align: center;
 }
@@ -29,13 +44,13 @@ h4 {
   font-size: 12px;
 }
 
+.container img {
+  width: 100%;
+}
+
 footer {
   position: fixed;
   bottom: 0;
   padding-bottom: 20px;
-  width: 100%;
-}
-
-.container img {
   width: 100%;
 }
