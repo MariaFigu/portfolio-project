@@ -1,15 +1,41 @@
+html {
+  font-family: "Playfair Display", serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+}
+
 .container {
   margin: 60px auto;
   max-width: 800px;
 }
 
-h1 {
-  font-family: "Amatic SC", cursive;
-  font-weight: bold;
+h1,
+h4 {
   text-align: center;
 }
 
-p {
-  font-family: "Playfair Display", serif;
+.social-text {
   text-align: center;
+}
+
+.icon {
+  text-align: center;
+  font-size: 12px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
 }
