@@ -4,6 +4,12 @@
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-family: "Playfair Display", serif;
   text-align: center;
 }
