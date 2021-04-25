@@ -20,7 +20,7 @@ h4 {
 }
 
 .container {
-  margin: 60px auto;
+  margin: 60px auto 20px;
   max-width: 800px;
 }
 
@@ -44,13 +44,24 @@ h4 {
   font-size: 12px;
 }
 
-.container img {
+.image-weather {
   width: 100%;
 }
 
-footer {
+.preview-images {
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.image-peach {
+  width: 80%;
+  margin: auto;
+}
+
+/*footer {
   position: fixed;
   bottom: 0;
   padding-bottom: 20px;
   width: 100%;
-}
+}*/ ;
