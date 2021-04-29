@@ -59,6 +59,10 @@ h4 {
   margin: auto;
 }
 
+.contact-content {
+  text-align: center;
+}
+
 /*footer {
   position: fixed;
   bottom: 0;
