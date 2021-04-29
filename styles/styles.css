@@ -52,10 +52,16 @@ h4 {
   padding: 10px;
   border-radius: 5px;
   text-align: center;
+  height: 100%;
+}
+
+.peach-container {
+  width: 260px;
+  margin: auto;
 }
 
 .image-peach {
-  width: 260px;
+  width: 100%;
   margin: auto;
 }
 
