@@ -35,13 +35,22 @@ h4 {
   padding: 40px 20px;
 }
 
+.content-title {
+  padding: 20px;
+}
+
 .social-text {
   text-align: center;
 }
 
 .icon {
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
+  border-top-style: ridge;
+}
+.weather-container {
+  width: 280px;
+  margin: auto;
 }
 
 .image-weather {
