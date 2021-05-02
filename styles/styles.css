@@ -1,10 +1,17 @@
 :root {
   --primary-color: #f9f3f3;
-  --heading-font-family: "Amatic SC", cursive;
+  --secondary-color: #f25287;
+  --heading-font-family: "Special Elite", cursive;
 }
 
 html {
   font-family: "Playfair Display", serif;
+  font-size: 16px;
+}
+
+.text-logo {
+  font-family: var(--heading-font-family);
+  font-size: 24px;
 }
 
 h1,
@@ -15,13 +22,29 @@ h4 {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
 .navbar {
   background-color: var(--primary-color);
 }
 
 .container {
   margin: 60px auto 20px;
-  max-width: 800px;
+}
+
+.container-homepage {
+  min-height: calc(100vh - 455px);
+}
+
+.container-grid {
+  max-width: 1000px;
+  min-height: calc(100vh - 203px);
 }
 
 h1,
@@ -39,29 +62,30 @@ h4 {
   padding: 20px;
 }
 
-.social-text {
-  text-align: center;
+.card-project {
+  border: 0;
+  padding: 15px 25px;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+}
+.btn {
+  color: var(--secondary-color);
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 10px;
 }
 
-.icon {
-  text-align: center;
-  font-size: 16px;
-  border-top-style: ridge;
+.btn:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
+
 .weather-container {
   width: 280px;
   margin: auto;
-}
-
-.image-weather {
-  width: 100%;
-}
-
-.preview-images {
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  height: 100%;
 }
 
 .peach-container {
@@ -69,18 +93,47 @@ h4 {
   margin: auto;
 }
 
-.image-peach {
-  width: 100%;
-  margin: auto;
-}
-
 .contact-content {
   text-align: center;
 }
 
-/*footer {
-  position: fixed;
-  bottom: 0;
-  padding-bottom: 20px;
-  width: 100%;
-}*/ ;
+.social-text {
+  text-align: right;
+}
+
+.social-link {
+  margin-left: 15px;
+}
+
+footer {
+  color: var(--secondary-color);
+  background-color: #f7d9d9;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.footer-container a {
+  color: var(--secondary-color);
+}
+
+.footer-container a:hover {
+  color: black;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  .btn-apps {
+    font-size: 14px;
+  }
+}
